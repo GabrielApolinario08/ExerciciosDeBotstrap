@@ -1,1 +1,2 @@
-# Exercícios feitos com bootstrap!
+# Exercícios usando bootstrap!
+Esses são alguns templates que fiz no aprendizado de bootstrap!
