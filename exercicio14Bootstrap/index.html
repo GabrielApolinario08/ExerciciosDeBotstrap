@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Férias</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse me-auto" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Gabriel</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="imgHeader img-A carousel-item active">
+                    <div class="ola carousel-caption align-items-center justify-content-center d-flex h-100">
+                        <div>
+                            <h5 class="display-1">Gabriel Apolinário</h5>
+                            <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, aut.</p>
+                            <button type="button" class="btn btn-danger rounded-pill">Minhas Férias</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="imgHeader img-B carousel-item">
+                    <div
+                        class="ola carousel-caption align-items-center justify-content-center d-flex h-100">
+                        <div>
+                            <h5 class="display-1">Gabriel Apolinário</h5>
+                            <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, aut..</p>
+                            <button type="button" class="btn btn-danger rounded-pill">Minhas Férias</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="imgHeader img-C carousel-item">
+                    <div
+                        class="ola carousel-caption align-items-center justify-content-center d-flex h-100">
+                        <div>
+                            <h5 class="display-1">Gabriel Apolinário</h5>
+                            <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, aut.</p>
+                            <button type="button" class="btn btn-danger rounded-pill">Minhas Férias</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="my-4 py-4 border-2 border-bottom border-secondary">
+            <div class="text-center pb-3">
+                <h1 class="display-4">As Melhores Férias Do Mundo.</h1>
+                <h2 class="display-6">Escolha A Forma De Pagamento</h2>
+            </div>
+            <div class="row py-5">
+                <div class="col-lg-4 text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                        class="bi bi-credit-card-2-front" viewBox="0 0 16 16">
+                        <path
+                            d="M14 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12zM2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2z" />
+                        <path
+                            d="M2 5.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5z" />
+                    </svg>
+                    <h3>Cartão de Crédito</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, at.</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                        class="bi bi-upc-scan" viewBox="0 0 16 16">
+                        <path
+                            d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1h-3zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5zM.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5zM3 4.5a.5.5 0 0 1 1 0v7a.5.5 0 0 1-1 0v-7zm2 0a.5.5 0 0 1 1 0v7a.5.5 0 0 1-1 0v-7zm2 0a.5.5 0 0 1 1 0v7a.5.5 0 0 1-1 0v-7zm2 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-7zm3 0a.5.5 0 0 1 1 0v7a.5.5 0 0 1-1 0v-7z" />
+                    </svg>
+                    <h3>Boleto</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, at.</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                        class="bi bi-cash-coin" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M11 15a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm5-4a5 5 0 1 1-10 0 5 5 0 0 1 10 0z" />
+                        <path
+                            d="M9.438 11.944c.047.596.518 1.06 1.363 1.116v.44h.375v-.443c.875-.061 1.386-.529 1.386-1.207 0-.618-.39-.936-1.09-1.1l-.296-.07v-1.2c.376.043.614.248.671.532h.658c-.047-.575-.54-1.024-1.329-1.073V8.5h-.375v.45c-.747.073-1.255.522-1.255 1.158 0 .562.378.92 1.007 1.066l.248.061v1.272c-.384-.058-.639-.27-.696-.563h-.668zm1.36-1.354c-.369-.085-.569-.26-.569-.522 0-.294.216-.514.572-.578v1.1h-.003zm.432.746c.449.104.655.272.655.569 0 .339-.257.571-.709.614v-1.195l.054.012z" />
+                        <path
+                            d="M1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.083c.058-.344.145-.678.258-1H3a2 2 0 0 0-2-2V3a2 2 0 0 0 2-2h10a2 2 0 0 0 2 2v3.528c.38.34.717.728 1 1.154V1a1 1 0 0 0-1-1H1z" />
+                        <path d="M9.998 5.083 10 5a2 2 0 1 0-3.132 1.65 5.982 5.982 0 0 1 3.13-1.567z" />
+                    </svg>
+                    <h3>Dinheiro</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, at.</p>
+                </div>
+            </div>
+            <div class="text-center pt-3">
+                <button type="button" class="btn btn-danger rounded-pill">Para mais informações clique aqui</button>
+            </div>
+        </section>
+
+        <section>
+            <div class="text-center py-4">
+                <h1 class="display-4">Escolha Um Destino.</h1>
+                <h2 class="display-6">Gabriel Apolinário Fabrício.</h2>
+            </div>
+            <div class="py-3">
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, consequatur.
+                </p>
+                <div class="row">
+                    <picture class="col-lg-3 col-md-4 col-6 p-3"><img class="col-12 rounded"
+                            src="https://picsum.photos/200/150" alt=""></picture>
+                    <picture class="col-lg-3 col-md-4 col-6 p-3"><img class="col-12 rounded"
+                            src="https://picsum.photos/200/150?random=1" alt=""></picture>
+                    <picture class="col-lg-3 col-md-4 col-6 p-3"><img class="col-12 rounded"
+                            src="https://picsum.photos/200/150?random=2" alt=""></picture>
+                    <picture class="col-lg-3 col-md-4 col-6 p-3"><img class="col-12 rounded"
+                            src="https://picsum.photos/200/150?random=3" alt=""></picture>
+                    <picture class="col-lg-3 col-md-4 col-6 p-3"><img class="col-12 rounded"
+                            src="https://picsum.photos/200/150?random=4" alt=""></picture>
+                    <picture class="col-lg-3 col-md-4 col-6 p-3"><img class="col-12 rounded"
+                            src="https://picsum.photos/200/150?random=5" alt=""></picture>
+                    <picture class="col-lg-3 col-md-4 col-6 p-3"><img class="col-12 rounded"
+                            src="https://picsum.photos/200/150?random=6" alt=""></picture>
+                    <picture class="col-lg-3 col-md-4 col-6 p-3"><img class="col-12 rounded"
+                            src="https://picsum.photos/200/150?random=7" alt=""></picture>
+                    <picture class="col-lg-3 col-md-4 col-6 p-3"><img class="col-12 rounded"
+                            src="https://picsum.photos/200/150?random=8" alt=""></picture>
+                    <picture class="col-lg-3 col-md-4 col-6 p-3"><img class="col-12 rounded"
+                            src="https://picsum.photos/200/150?random=9" alt=""></picture>
+                    <picture class="col-lg-3 col-md-4 col-6 p-3"><img class="col-12 rounded"
+                            src="https://picsum.photos/200/150?random=10" alt=""></picture>
+                    <picture class="col-lg-3 col-md-4 col-6 p-3"><img class="col-12 rounded"
+                            src="https://picsum.photos/200/150?random=11" alt=""></picture>
+                </div>
+            </div>
+            <div class="w-75 m-auto text-center border-bottom border-2 border-secondary pt-5 pb-4">
+                <button type="button" class="btn btn-danger rounded-pill">Clique aqui para saber mais</button>
+            </div>
+        </section>
+
+        <section class="py-3">
+            <div class="row py-md-4 py-5">
+                <picture class="col-lg-4 col-md-6"><img class="col-12" src="img/undraw_Aircraft_re_m05i.png" alt="">
+                </picture>
+                <div class="col-lg-8 col-md-6">
+                    <h1 class="display-5">Passagens Aéreas</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro minima provident sunt aliquam
+                        ducimus ut, tempore, distinctio eum est similique beatae ipsa. Consectetur porro facere
+                        facilis
+                        odit tempora exercitationem fugiat?
+                    </p>
+                    <div class="text-center">
+                        <button type="button" class="btn btn-danger rounded-pill">Ver mais</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-md-none border border-2 border-black"></div>
+
+            <div class="row py-4">
+                <div class="col-lg-8 col-md-6">
+                    <h1 class="display-5">As Melhores Praias</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro minima provident sunt aliquam
+                        ducimus ut, tempore, distinctio eum est similique beatae ipsa. Consectetur porro facere facilis
+                        odit tempora exercitationem fugiat?
+                    </p>
+                    <div class="text-center">
+                        <button type="button" class="btn btn-danger rounded-pill">Ver mais</button>
+                    </div>
+                </div>
+                <picture class="col-lg-4 col-md-6"><img class="col-12" src="img/undraw_Surfer_re_hncq.png" alt="">
+                </picture>
+            </div>
+
+            <div class="d-md-none border border-2 border-black"></div>
+
+            <div class="row py-4">
+                <picture class="col-lg-4 col-md-6"><img class="col-12" src="img/undraw_Trip_re_f724.png" alt="">
+                </picture>
+                <div class="col-lg-8 col-md-6">
+                    <h1 class="display-5">Férias Para o Final do Ano</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro minima provident sunt aliquam
+                        ducimus ut, tempore, distinctio eum est similique beatae ipsa. Consectetur porro facere facilis
+                        odit tempora exercitationem fugiat?
+                    </p>
+                    <div class="text-center">
+                        <button type="button" class="btn btn-danger rounded-pill">Ver mais</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-bg-dark">
+        <div class="container">
+            <div class="text-center py-5">
+                <h3>Gabriel Apolinário Fabrício.</h3>
+            </div>
+            <div class="row">
+                <p class="col-6">As Melhores Férias | As Melhores Viagens</p>
+                <span class="col-6 text-end"> &#169; 2023</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

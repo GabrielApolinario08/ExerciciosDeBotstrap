@@ -1,0 +1,32 @@
+header {
+    background-image: url(https://picsum.photos/1000/400);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+.minha-fonte {
+    font-size: 60px;
+    text-shadow: 1px 1px 1px white, -1px -1px 1px white;
+}
+
+p {
+    text-align: justify;
+}
+
+.sombra {
+    box-shadow: 1px 0 1px black, -1px 0 1px black;
+}
+
+@media screen and (max-width: 486px) {
+    .minha-fonte {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .minha-fonte {
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,29 @@
+.bg-purple {
+    background-color: blueviolet;
+    color: #fff;
+}
+
+.img-header {
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img01 {
+    background-image: url(https://picsum.photos/2000/500);
+}
+
+.img02 {
+    background-image: url(https://picsum.photos/2000/500?random=1);
+}
+
+.img03 {
+    background-image: url(https://picsum.photos/2000/500?random=2);
+}
+
+
+/* .ola1 {
+    border: 2px solid red;
+} */
+

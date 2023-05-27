@@ -1,0 +1,20 @@
+.imgHeader {
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.img-A {
+    background-image: url(../img/fundo.jpg);
+}
+
+.img-B {
+    background-image: url(../img/retangulo-horizontal01.jpg);
+}
+
+.img-C {
+    background-image: url(../img/retangulo-horizontal02.jpg);
+}
+

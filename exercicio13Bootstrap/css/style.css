@@ -1,0 +1,28 @@
+.fotos-cores {
+    height: 20vh;
+}
+
+.blue {
+    background-color: darkblue;
+}
+
+.green {
+    background-color: green;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.blueviolet {
+    background-color: blueviolet;
+}
+
+.brown {
+    background-color: brown;
+}
+
+ /* main,
+div {
+    border: 2px solid red;
+}  */
